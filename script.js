@@ -41,6 +41,9 @@ function handleAnyResponse(answer) {
     window.open(url, "_blank");
 }
 
+const phone = '9960967852';
+const answer = 'YES'; // or NO
+window.open(`https://wa.me/${phone}?text=Your+crush+clicked+${answer}`);
 function playMusic() {
     const music = document.getElementById("bg-music");
     if (music && music.paused) {
